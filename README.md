@@ -6,14 +6,10 @@ Welcome to the README file for your ReactJS project! This document will guide yo
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
+- [Prerequisites](#prerequisites)
 - [Project Structure](#project-structure)
 - [External Dependencies](#external-dependencies)
-- [Contributing](#contributing)
-- [License](#license)
+- [NOTICE](#Notices)
 
 ## Introduction
 
@@ -30,7 +26,6 @@ This project is a ReactJS application that demonstrates the usage of various Rea
 - Integration of Font Awesome icons for enhanced visual elements.
 - Utilization of external images and CDN links for various assets.
 
-## Getting Started
 
 ### Prerequisites
 
@@ -82,5 +77,5 @@ This project uses the following external dependencies:
 ## in Future update for responsive for mobile and tablet
 
 
-## NOTICE
+##NOTICE
 -  **This Project only for Practice purpose 
