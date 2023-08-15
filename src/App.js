@@ -1,0 +1,63 @@
+import './App.css';
+import React, { Component } from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header123 from './components/Header123';
+import Products from './components/Products';
+import Slider1 from './components/Slider1';
+import Savingcard from './components/Savingcard';
+import ShopUs from './components/ShopUs';
+import GIfts from './components/GIfts';
+import ContactUs from './components/ContactUs';
+import FooterG from './components/FooterG';
+
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        
+       <Header123/>
+       <Slider1/>
+       <Products/>
+       <Savingcard/>
+       <ShopUs/>
+       <GIfts/>
+       <ContactUs/>
+       {/* <Testmonial/> */}
+       <FooterG/>
+       
+      </div>
+    )
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function App() {
+//   return (
+//     <div className="App">
+      
+//     </div>
+//   );
+// }
+
+// export default App;

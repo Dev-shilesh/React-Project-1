@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+a:link ,a:visited{
+  color: black;
+  font-size: 18px;
+  margin-right: 30px;
+  font-weight:600;
+}
