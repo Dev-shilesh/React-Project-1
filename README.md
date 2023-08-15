@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# ReactJS Project Giftos README
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the README file for your ReactJS project! This document will guide you through the setup, features, and usage of your project. Let's get started.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [External Dependencies](#external-dependencies)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project is a ReactJS application that demonstrates the usage of various React topics, including Class Components, external CSS, ES6 (ECMAScript) syntax, state management using `setState`, mapping over arrays and objects, integration of React Bootstrap for styling, and using Font Awesome icons through CDN links. The project also includes the usage of external images and CDN links for various resources.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- Implementation of Class Components in React.
+- Styling components using external CSS files.
+- Utilization of ECMAScript (ES6) syntax for modern JavaScript development.
+- State management using the `setState` method.
+- Mapping over arrays and objects to dynamically render content.
+- Integration of React Bootstrap components for responsive and visually appealing UI.
+- Integration of Font Awesome icons for enhanced visual elements.
+- Utilization of external images and CDN links for various assets.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Before you begin, make sure you have the following installed:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js: Make sure you have Node.js installed. You can download it from [nodejs.org](https://nodejs.org/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The project structure is organized as follows:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+project-root/
+├── src/
+│   ├── components/
+│   │   ├── CSS/
+│   │   ├── YourComponent.js
+│   │   └── ...
+│   ├── css/
+│   │   ├── styles.css
+│   │   └── ...
+│   ├── App.js
+│   └── index.js
+├── public/
+│   ├── index.html
+│   └── image/
+|       |_image1.jpg
+|       |_image2.png
+|
+├── README.md
+└── package.json
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **src/components**: Contains React components, including your custom components.
+- **src/css**: Contains external CSS files for styling components.
+- **src/App.js**: The root component of your application.
+- **src/index.js**: The entry point of your React application.
+- **public/index.html**: The HTML template for your application.
+- **public/images**: Holds images and assets used in the project.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## External Dependencies
 
-## Learn More
+This project uses the following external dependencies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- React Bootstrap: For styling and responsive UI components. You can find more information at [react-bootstrap.github.io](https://react-bootstrap.github.io/).
+- Font Awesome: For including icon fonts. You can find more information at [fontawesome.com](https://fontawesome.com/).
+```
+## in Future update for responsive for mobile and tablet
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## NOTICE
+-  **This Project only for Practice purpose 
